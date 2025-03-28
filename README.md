@@ -1,19 +1,6 @@
 # Folder structure
 
-zania (main folder)
-    -app
-        -models 
-        -routes
-        -database.py
-        -main.py
-        -utility.py
-
-    -Testing
-    -unitTesting
-    -Dockerfile
-    -docker-compose.yml
-    -requirement.txt
-    -.env
+zania/ │── app/ │ ├── routes/ │ │ ├── product.py │ │ ├── order.py │ ├── models/ │ │ ├── product.py │ │ ├── order.py │ ├── database.py │ │── main.py │ │── utility.py │── Testing/ │ ├── test_order.py │ ├── test_product.py │ ├── functiontest.py │ ├── conftest.py │── unitTesting/ │ ├── test_createorder.py │ ├── test_createproduct.py  │ ├── test_readorder.py │ ├── test_readproduct.py│ ├── test_functionTest.py  │── .env │── .gitignore │── Dockerfile │── docker-compose.yml │── requirements.txt │── README.md
 
 __create a .env file, which holds the two env variable__ : MONGO_URI and DB_NAME
 
