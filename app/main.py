@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from app.routes import product, order
 from app.database import init_db
-from app.config import settings
 from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 
