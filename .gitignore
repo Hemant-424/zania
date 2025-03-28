@@ -1,0 +1,8 @@
+.env
+zania/
+zania/.pytest_cache/
+zania/Testing\__pycache__
+zania/unitTesting/__pycache__/
+zania/app/__pycache__/
+zania/app/routes/__pycache__/
+zania/app/models/__pycache__/
